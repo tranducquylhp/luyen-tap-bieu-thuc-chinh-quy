@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function countSpace(str) {
+            let count = str.match(/ /g);
+            return count;
+        }
+        let str = "Welcome To Codegym. My name is Quy";
+        str = str.trim();
+        let arrSpace = countSpace(str);
+        alert("Chuoi "+str+" co "+(arrSpace.length+1)+" tu");
+    </script>
+</body>
+</html>

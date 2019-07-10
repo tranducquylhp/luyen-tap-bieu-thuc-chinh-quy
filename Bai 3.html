@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let str = "Welcome To Codegym My name is Quy";
+        let countNguyenAm = str.match(/[aoeiu]/gi);
+        let countPhuAm = str.match(/[^aoeiu ]/gi);
+        document.write("So nguyen am trong chuoi la: "+countNguyenAm.length+"<br>");
+        document.write("So phu am trong chuoi la: "+ countPhuAm.length+"<br>");
+    </script>
+</body>
+</html>
